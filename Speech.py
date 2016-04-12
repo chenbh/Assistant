@@ -48,7 +48,7 @@ class Speech:
     def getCommand (self):
         if self.debug:
             return raw_input ("debug: ")
-        googleKey = "AIzaSyAoWtaIKd4qVrcsNDrLJfmLqrpm9to-_fs"
+        googleKey = "GOOGLE_API_KEY"
         # obtain audio from the microphone
         with sr.Microphone () as source:
             audio = self.r.listen(source)
